@@ -145,7 +145,6 @@ const App = () => {
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
       />
-    
     </Routes>
   )
 }
