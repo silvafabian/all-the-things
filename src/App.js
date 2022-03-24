@@ -123,9 +123,9 @@ const App = () => {
 
   const [fabiansThings, setFabiansThings] = useState([
     {
-      name: "flaming hot doritos are god tier",
+      name: "doritos",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["everything", "for real"],
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ])
 
@@ -144,6 +144,10 @@ const App = () => {
       <Route
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
+      />
+      <Route
+        path="/the-silly-things"
+        element={<SillyThings things={fabiansThings} />}
       />
     </Routes>
   )
